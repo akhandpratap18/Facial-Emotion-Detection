@@ -5,6 +5,7 @@ This project implements a **Facial Emotion Detection System** that identifies em
 ## Features
 - Emotion classification from facial images.
 - Saved training CNN model for future integrations.
+- Real time detection and prediction.
 - Easy-to-use interface for prediction.
 
 ## Dataset
