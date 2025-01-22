@@ -1,6 +1,6 @@
 # Facial Emotion Detection
 
-This project implements a **Facial Emotion Detection System** that identifies emotions from facial images. It uses a Convolutional Neural Network (CNN) trained on the [FER-2013 dataset](https://www.kaggle.com/datasets/msambare/fer2013) from Kaggle to classify emotions into categories such as happy, sad, angry, surprised, and neutral.
+This project implements a **Facial Emotion Detection System** that identifies emotions from facial images. It uses a Convolutional Neural Network (CNN) trained on the [FER-2013 dataset](https://www.kaggle.com/datasets/msambare/fer2013) from Kaggle to classify emotions into seven categories such as happy, sad, angry, surprised, digust, fear, and neutral.
 
 ## Features
 - Emotion classification from facial images.
@@ -8,12 +8,8 @@ This project implements a **Facial Emotion Detection System** that identifies em
 - Easy-to-use interface for prediction.
 
 ## Dataset
-The project uses the FER-2013 dataset, a public dataset available on Kaggle. It contains facial images categorized into various emotion labels.
+The project uses the FER-2013 dataset, a public dataset available on Kaggle. It contains facial images categorized into various emotion labels. It contained about 36000 images in grayscale(single channel).
 
-### How to Download the Dataset
-1. Go to the [FER-2013 dataset page on Kaggle](https://www.kaggle.com/datasets/msambare/fer2013).
-2. Click on the **Download** button to download the dataset.
-3. Extract the downloaded ZIP file to your project directory.
 
 ## Prerequisites
 Before running this project, ensure you have the following installed:
@@ -58,4 +54,5 @@ pip install -r requirements.txt
 - `requirements.txt`: List of dependencies.
 
 ## Brief Description of the Project
-Facial Emotion Detection is a critical application of computer vision and deep learning, enabling systems to understand and respond to human emotions. This project uses a Convolutional Neural Network (CNN) architecture to classify facial expressions into multiple emotion categories. By leveraging the FER-2013 dataset, the system can accurately detect emotions from input images. This project serves as a foundation for applications in human-computer interaction, surveillance, and mental health analysis.
+Facial Emotion Detection is a critical application of computer vision and deep learning, enabling systems to understand and respond to human emotions. This project uses a Convolutional Neural Network (CNN) architecture to classify facial expressions into multiple emotion categories. By leveraging the FER-2013 dataset, the system can achieve an accuracy of approximately **91% on the training set** and **65% on the validation set**. This performance reflects the inherent challenges of the dataset, such as low-resolution images and varied lighting conditions. Despite these challenges, the system provides a solid foundation for applications in human-computer interaction, surveillance, and mental health analysis.
+
