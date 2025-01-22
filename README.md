@@ -1,1 +1,67 @@
-# Facial-Emotion-Detection
+# Facial Emotion Detection
+
+This project implements a **Facial Emotion Detection System** that identifies emotions from facial images. It uses a Convolutional Neural Network (CNN) trained on the [FER-2013 dataset](https://www.kaggle.com/datasets/msambare/fer2013) from Kaggle to classify emotions into categories such as happy, sad, angry, surprised, and neutral.
+
+## Features
+- Emotion classification from facial images.
+- Pre-trained CNN model for high accuracy.
+- Easy-to-use interface for prediction.
+
+## Dataset
+The project uses the FER-2013 dataset, a public dataset available on Kaggle. It contains facial images categorized into various emotion labels.
+
+### How to Download the Dataset
+1. Go to the [FER-2013 dataset page on Kaggle](https://www.kaggle.com/datasets/msambare/fer2013).
+2. Sign in with your Kaggle account.
+3. Click on the **Download** button to download the dataset.
+4. Extract the downloaded ZIP file to your project directory. Ensure that the data files (e.g., `train.csv` or image folders) are properly organized as required by the code.
+
+## Prerequisites
+Before running this project, ensure you have the following installed:
+- Python 3.8+
+- Jupyter Notebook
+- Pip (Python package manager)
+
+### Required Libraries
+Install the required Python libraries using the following command:
+```bash
+pip install -r requirements.txt
+```
+
+## How to Run the Project
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/your-username/facial-emotion-detection.git
+   cd facial-emotion-detection
+   ```
+
+2. Place the FER-2013 dataset files in the `data` directory within the project.
+
+3. Open the Jupyter Notebook:
+   ```bash
+   jupyter notebook
+   ```
+
+4. In the Jupyter Notebook interface:
+   - Open the `Final.ipynb` notebook to:
+     - Load the dataset.
+     - Train the model and save it as `emotiondetector1.h5`.
+   - Open the `Realtime.ipynb` notebook to:
+     - Load the saved model (`emotiondetector1.h5`).
+     - Perform real-time emotion detection on input images.
+
+5. To predict emotions from an image in real-time, upload the image to the specified location in the `Realtime.ipynb` notebook and follow the instructions in the cells.
+
+## Project Files
+- `Final.ipynb`: Jupyter Notebook containing the training code and saving the model.
+- `Realtime.ipynb`: Jupyter Notebook for real-time emotion detection using the saved model.
+- `emotiondetector1.h5`: Pre-trained model weights.
+- `requirements.txt`: List of dependencies.
+
+## Brief Description of the Project
+Facial Emotion Detection is a critical application of computer vision and deep learning, enabling systems to understand and respond to human emotions. This project uses a Convolutional Neural Network (CNN) architecture to classify facial expressions into multiple emotion categories. By leveraging the FER-2013 dataset, the system can accurately detect emotions from input images. This project serves as a foundation for applications in human-computer interaction, surveillance, and mental health analysis.
+
+---
+Feel free to contribute by submitting pull requests or reporting issues!
+
+**Author:** Akhand Pratap Singh
