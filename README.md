@@ -12,9 +12,8 @@ The project uses the FER-2013 dataset, a public dataset available on Kaggle. It 
 
 ### How to Download the Dataset
 1. Go to the [FER-2013 dataset page on Kaggle](https://www.kaggle.com/datasets/msambare/fer2013).
-2. Sign in with your Kaggle account.
-3. Click on the **Download** button to download the dataset.
-4. Extract the downloaded ZIP file to your project directory. Ensure that the data files (e.g., `train.csv` or image folders) are properly organized as required by the code.
+2. Click on the **Download** button to download the dataset.
+3. Extract the downloaded ZIP file to your project directory.
 
 ## Prerequisites
 Before running this project, ensure you have the following installed:
@@ -60,8 +59,3 @@ pip install -r requirements.txt
 
 ## Brief Description of the Project
 Facial Emotion Detection is a critical application of computer vision and deep learning, enabling systems to understand and respond to human emotions. This project uses a Convolutional Neural Network (CNN) architecture to classify facial expressions into multiple emotion categories. By leveraging the FER-2013 dataset, the system can accurately detect emotions from input images. This project serves as a foundation for applications in human-computer interaction, surveillance, and mental health analysis.
-
----
-Feel free to contribute by submitting pull requests or reporting issues!
-
-**Author:** Akhand Pratap Singh
